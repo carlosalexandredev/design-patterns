@@ -6,8 +6,8 @@
 </p>
 
 **Design Patterns:**
-Padrões de projeto são soluções típicas para problemas comuns em projeto de software. Eles são como plantas de obra pré fabricadas que você pode customizar para resolver um problema de projeto recorrente em seu código.
-
+Padrões de projeto são soluções típicas para problemas comuns em projeto de software. Eles são como plantas de obra pré fabricadas que você pode customizar para resolver um problema de projeto recorrente em seu código.</br>
+[Padrões de Projeto - Solucões Reutilizáveis de Software Orientado a Objetos.pdf](https://github.com/carlosalexandredev/desing-patterns/blob/c0ddbf7b49bed10d18ecf1941745d72e97ab6105/Padr%C3%B5es%20de%20Projeto%20-%20Soluc%C3%B5es%20Reutiliz%C3%A1veis%20de%20Software%20Orientado%20a%20Objetos.pdf)
 - **Criacionais(Creational)**
     - [Factory Method](#factory-method)
     - [Abstract Factory](#abstract-factory)
@@ -29,6 +29,8 @@ O **Abstract Factory** permite que você produza famílias de objetos relacionad
 
 #### Builder
 O **Builder** permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.</br>
+[View Code](src/main/java/dev/carlos/designpatters/creational/builder)
+
 
 #### Prototype
 O **Prototype** permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.</br>
