@@ -8,32 +8,32 @@
 **Design Patterns:**
 Padrões de projeto são soluções típicas para problemas comuns em projeto de software. Eles são como plantas de obra pré fabricadas que você pode customizar para resolver um problema de projeto recorrente em seu código.
 
-- Criacionais(Creational)
+- **Criacionais(Creational)**
     - [Factory Method](#factory-method)
     - [Abstract Factory](#abstract-factory)
     - [Builder](#builder)
     - [Prototype](#prototype)
     - [Singleton](#singleton)
-- Estruturais(Structural)
-
-- Comportamentais(Behavioral)
-- Outros
+- **Estruturais(Structural)**
+- **Comportamentais(Behavioral)**
+- **Outros**
 
 ### Criacionais(Creational)
 
 #### Factory Method
-O **Factory Method** é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.</br>
+O **Factory Method** fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.</br>
 [View Code](src/main/java/dev/carlos/designpatters/creational/factory_method)
 #### Abstract Factory
-O **Abstract Factory** é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.</br>
+O **Abstract Factory** permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.</br>
 [View Code](src/main/java/dev/carlos/designpatters/creational/abstract_method)
 
 #### Builder
-O **Builder** é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+O **Builder** permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.</br>
 
 #### Prototype
-O **Prototype** é um padrão de projeto criacional que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.
+O **Prototype** permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.</br>
+[View Code](src/main/java/dev/carlos/designpatters/creational/prototype)
 
 #### Singleton
-O **Singleton** é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.</br>
+O **Singleton** permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.</br>
 [View Code](src/main/java/dev/carlos/designpatters/creational/singleton)
