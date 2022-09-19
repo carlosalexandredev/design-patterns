@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302320be-bed4-4da1-82c7-081dcc8c15eb" name="Changes" comment=":memo: Padrões de Projeto - Solucões Reutilizáveis de Software Orientado a Objetos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/builder/example_01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/builder/example_01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/builder/example_02/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/builder/example_02/Carro.java" afterDir="false" />
+    <list default="true" id="302320be-bed4-4da1-82c7-081dcc8c15eb" name="Changes" comment=":construction: Builder | Creational Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/abstract_method/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/AppClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaFisicaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaJuridica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/MeuPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/SdkPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/MeuPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/ProcessorPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/SdkPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/MeuPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/ProcessorPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/SdkPagamentoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/AppClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/DbAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/Entity/Historico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/MySQLCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/OracleCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/SqlServerAdpter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/SqlServerCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
@@ -20,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +52,18 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,30 +82,35 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Win10/Desktop/desing-patterns"
+    "last_opened_file_path": "C:/Users/Win10/Desktop/desing-patterns/src/main/java/dev/carlos/designpatters/creational/abstract_method"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.carlos.designpatters.structural.adpter.exemplo_04" />
       <recent name="dev.carlos.designpatters.creational.singleton.exemplo_03" />
       <recent name="dev.carlos.designpatters.creational.abstract_method.exemplo_02" />
       <recent name="dev.carlos.designpatters.creational.abstract_method" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\creational\abstract_method" />
       <recent name="C:\Users\Win10\Desktop\desing-patterns" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\structural\adpter\exemplo_02" />
+      <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\structural\adpter\exemplo_01" />
       <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\creational" />
       <recent name="C:\Users\Win10\Desktop\desing-patterns\src" />
       <recent name="C:\Users\Win10\Desktop\desing-patterns" />
-      <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\creational\singleton\exemplo_01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.carlos.designpatters.structural.adpter.Exemplo_05" />
+      <recent name="dev.carlos.designpatters.structural.adpter.exemplo_04" />
       <recent name="dev.carlos.designpatters.creational.prototype" />
       <recent name="dev.carlos.designpatters.creational.exemplo_04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.carlos.designpatters.creational.builder.example_01.App">
+  <component name="RunManager" selected="Application.dev.carlos.designpatters.structural.adpter.Exemplo_05.AppClient">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.prototype.exemplo_01.App" />
       <module name="desing-patterns" />
@@ -87,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.prototype.exemplo_02.Prototype_1" />
+    <configuration name="AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.adpter.exemplo_04.AppClient" />
       <module name="desing-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.carlos.designpatters.creational.prototype.exemplo_02.*" />
+          <option name="PATTERN" value="dev.carlos.designpatters.structural.adpter.exemplo_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.carlos.designpatters.creational.singleton.exemplo_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.singleton.exemplo_01.App" />
-      <module name="desing-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.carlos.designpatters.creational.singleton.exemplo_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dev.carlos.designpatters.creational.singleton.exemplo_03.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.singleton.exemplo_03.App" />
       <module name="desing-patterns" />
@@ -139,13 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.carlos.designpatters.structural.adpter.Exemplo_05.AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.adpter.Exemplo_05.AppClient" />
+      <module name="desing-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.carlos.designpatters.structural.adpter.Exemplo_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.carlos.designpatters.structural.adpter.Exemplo_05.AppClient" />
+        <item itemvalue="Application.AppClient" />
         <item itemvalue="Application.dev.carlos.designpatters.creational.builder.example_01.App" />
         <item itemvalue="Application.dev.carlos.designpatters.creational.singleton.exemplo_03.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Prototype_1" />
-        <item itemvalue="Application.dev.carlos.designpatters.creational.singleton.exemplo_01.App" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +199,7 @@
       <workItem from="1663039723860" duration="319000" />
       <workItem from="1663075315598" duration="594000" />
       <workItem from="1663348081907" duration="121000" />
-      <workItem from="1663464353900" duration="15437000" />
+      <workItem from="1663464353900" duration="27740000" />
     </task>
     <task id="LOCAL-00001" summary=":construction: Abstract Method and Factory Method | Creational Pattern">
       <created>1662865297681</created>
@@ -199,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663539441523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=":construction: Builder | Creational Pattern">
+      <created>1663541956851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663541956851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +265,8 @@
     <MESSAGE value=":construction: Link README | Creational Pattern" />
     <MESSAGE value=":construction: Singleton | Creational Pattern" />
     <MESSAGE value=":memo: Padrões de Projeto - Solucões Reutilizáveis de Software Orientado a Objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: Padrões de Projeto - Solucões Reutilizáveis de Software Orientado a Objetos" />
+    <MESSAGE value=":construction: Builder | Creational Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: Builder | Creational Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +310,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_01/App.java</url>
           <line>5</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/AppClient.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/AppClient.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
