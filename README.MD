@@ -16,6 +16,7 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
     - [Singleton](#singleton)
 - **[Estruturais(Structural)](#estruturaisstructural)**
     - [Adapter](#adapter)
+    - [Bridge](#bridge )
 - **Comportamentais(Behavioral)**
 - **Outros**
 
@@ -46,3 +47,7 @@ O **Singleton** permite a você garantir que uma classe tenha apenas uma instân
 #### Adapter
 O **Adapter** permite objetos com interfaces incompatíveis colaborarem entre si.</br>
 [View Code](src/main/java/dev/carlos/designpatters/structural/adapter)
+
+#### Bridge
+O **Bridge** permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.</br>
+[View Code](src/main/java/dev/carlos/designpatters/structural/bridge )
