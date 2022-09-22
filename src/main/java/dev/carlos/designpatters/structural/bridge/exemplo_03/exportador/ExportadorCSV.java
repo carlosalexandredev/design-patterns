@@ -8,6 +8,6 @@ public class ExportadorCSV extends Exportador {
     }
 
     public void gerarArquivo(){
-        gerarArquivo("csv");
+        exportaArquivo("csv");
     }
 }
