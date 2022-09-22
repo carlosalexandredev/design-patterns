@@ -4,55 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302320be-bed4-4da1-82c7-081dcc8c15eb" name="Changes" comment=":construction: Builder | Creational Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/window/IconWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/window/TransienWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/window/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/windowImp/PMWindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/windowImp/WindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_01/windowImp/XWindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/controle/ControleRemoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/controle/ControleRemotoBasicoBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/controle/ControleRemotoTouchBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/dispositivo/Dispositivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/dispositivo/DispositivoRadioSamsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/dispositivo/DispositivoTVLG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_02/dispositivo/DispositivoTVSony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/Exportador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/extrato/Extrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/extrato/ExtratoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/extrato/ExtratoVendedor.java" afterDir="false" />
+    <list default="true" id="302320be-bed4-4da1-82c7-081dcc8c15eb" name="Changes" comment=":construction: Bridge | Structural Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/MensagemEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/MensagemFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/MensagemSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/MensagemWhatsapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/factory_method/exemplo_05/mensagem/TipoMensagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/Exemplo_05/AppClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/Exemplo_05/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/Exemplo_05/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaFisicaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/Exemplo_05/PessoaFisicaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/Exemplo_05/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/Exemplo_05/PessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_01/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/MeuPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_01/MeuPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_01/SdkPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_01/SdkPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_02/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/MeuPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_02/MeuPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/ProcessorPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_02/ProcessorPagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_02/SdkPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_02/SdkPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_03/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/MeuPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_03/MeuPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/ProcessorPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_03/ProcessorPagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_03/SdkPagamentoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_03/SdkPagamentoCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/AppClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/DbAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/DbAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/Entity/Historico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/Entity/Historico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/MySQLCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/MySQLCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/OracleCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/OracleCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/SqlServerAdpter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/SqlServerAdpter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adpter/exemplo_04/SqlServerCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/adapter/exemplo_04/SqlServerCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_02/Documento1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_02/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_02/Prototype_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_02/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/Exportador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/Exportador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/structural/bridge/exemplo_03/exportador/ExportadorXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +29,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -105,16 +72,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Win10/Desktop/desing-patterns/src/main/java/dev/carlos/designpatters/creational/abstract_method&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Win10/Desktop/desing-patterns&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.carlos.designpatters.creational.factory_method.exemplo_05.mensagem" />
       <recent name="dev.carlos.designpatters.structural.bridge.exemplo_03.extrato" />
       <recent name="dev.carlos.designpatters.structural.adpter.exemplo_04" />
       <recent name="dev.carlos.designpatters.creational.singleton.exemplo_03" />
       <recent name="dev.carlos.designpatters.creational.abstract_method.exemplo_02" />
-      <recent name="dev.carlos.designpatters.creational.abstract_method" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Win10\Desktop\desing-patterns\src\main\java\dev\carlos\designpatters\creational\abstract_method" />
@@ -128,14 +95,14 @@
       <recent name="C:\Users\Win10\Desktop\desing-patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.carlos.designpatters.creational.factory_method.exemplo_05.mensagem" />
       <recent name="dev.carlos.designpatters.structural.bridge.exemplo_03.exportador" />
       <recent name="dev.carlos.designpatters.structural.bridge.exemplo_03.extrato" />
       <recent name="dev.carlos.designpatters.structural.bridge.exemplo_02.controle" />
       <recent name="dev.carlos.designpatters.structural.bridge.exemplo_02.imp" />
-      <recent name="dev.carlos.designpatters.structural.adpter.Exemplo_05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dev.carlos.designpatters.structural.bridge.exemplo_03.App">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.bridge.exemplo_02.App" />
       <module name="desing-patterns" />
@@ -149,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.carlos.designpatters.structural.adapter.Exemplo_05.AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.adapter.Exemplo_05.AppClient" />
+    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.prototype.exemplo_02.Prototype" />
       <module name="desing-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.carlos.designpatters.structural.adapter.Exemplo_05.*" />
+          <option name="PATTERN" value="dev.carlos.designpatters.creational.prototype.exemplo_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.carlos.designpatters.structural.adapter.exemplo_04.AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.adapter.exemplo_04.AppClient" />
+    <configuration name="dev.carlos.designpatters.creational.factory_method.exemplo_05.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.factory_method.exemplo_05.App" />
       <module name="desing-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.carlos.designpatters.structural.adapter.exemplo_04.*" />
+          <option name="PATTERN" value="dev.carlos.designpatters.creational.factory_method.exemplo_05.mensagem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.carlos.designpatters.structural.bridge.exemplo_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.structural.bridge.exemplo_01.App" />
+    <configuration name="dev.carlos.designpatters.creational.prototype.exemplo_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.carlos.designpatters.creational.prototype.exemplo_01.App" />
       <module name="desing-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.carlos.designpatters.structural.bridge.exemplo_01.windowImp.*" />
+          <option name="PATTERN" value="dev.carlos.designpatters.creational.prototype.exemplo_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.carlos.designpatters.creational.prototype.exemplo_01.App" />
+        <item itemvalue="Application.dev.carlos.designpatters.creational.factory_method.exemplo_05.App" />
         <item itemvalue="Application.dev.carlos.designpatters.structural.bridge.exemplo_03.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.dev.carlos.designpatters.structural.bridge.exemplo_01.App" />
-        <item itemvalue="Application.dev.carlos.designpatters.structural.adapter.Exemplo_05.AppClient" />
-        <item itemvalue="Application.dev.carlos.designpatters.structural.adapter.exemplo_04.AppClient" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +191,9 @@
       <workItem from="1663075315598" duration="594000" />
       <workItem from="1663348081907" duration="121000" />
       <workItem from="1663464353900" duration="27740000" />
-      <workItem from="1663679114559" duration="12659000" />
+      <workItem from="1663679114559" duration="14235000" />
+      <workItem from="1663854191661" duration="4693000" />
+      <workItem from="1663879658713" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary=":construction: Abstract Method and Factory Method | Creational Pattern">
       <created>1662865297681</created>
@@ -269,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663541956851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":construction: Bridge | Structural Pattern">
+      <created>1663693086409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663693086409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +267,8 @@
     <MESSAGE value=":construction: Singleton | Creational Pattern" />
     <MESSAGE value=":memo: Padrões de Projeto - Solucões Reutilizáveis de Software Orientado a Objetos" />
     <MESSAGE value=":construction: Builder | Creational Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value=":construction: Builder | Creational Pattern" />
+    <MESSAGE value=":construction: Bridge | Structural Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: Bridge | Structural Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,13 +304,8 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_02/Prototype_1.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dev/carlos/designpatters/creational/prototype/exemplo_01/App.java</url>
-          <line>5</line>
+          <line>7</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
